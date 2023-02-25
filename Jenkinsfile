@@ -1,7 +1,7 @@
 pipeline {
   agent {
     node {
-      label 'Built-In Node'
+      label 'Built-In-Node'
     }
 
   }
@@ -12,7 +12,7 @@ pipeline {
     stage('Test') {
       agent {
         node {
-          label "Built-In Node"
+          label "Built-In-Node"
         }
       }
       steps {
