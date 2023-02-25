@@ -12,7 +12,7 @@ pipeline {
     stage('Test') {
       agent {
         node {
-          label "ruby"
+          label "master"
         }
       }
       steps {
